@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2949a741-33b8-4757-ab03-f0fd2ce26048" name="Changes" comment="(test) test passed for no specification of palette size">
+    <list default="true" id="2949a741-33b8-4757-ab03-f0fd2ce26048" name="Changes" comment="(code) code implemented for add method to palette array, exception thrown if beyond max">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcjh1/ColourTableTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcjh1/ColourTableTDD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pcjh1/TestColourTableTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pcjh1/TestColourTableTDD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +146,28 @@
       <option name="project" value="LOCAL" />
       <updated>1700847437383</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="(test) test passed for no specification of palette size">
+      <created>1700847786218</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700847786218</updated>
+    </task>
+    <task id="LOCAL-00012" summary="(test) test created to test add method for palette array, tests palette limit">
+      <created>1700849142580</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700849142580</updated>
+    </task>
+    <task id="LOCAL-00013" summary="(code) code implemented for add method to palette array, exception thrown if beyond max">
+      <created>1700849191877</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700849191877</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +193,8 @@
     <MESSAGE value="(test) implemented test to check if palette size is invalid." />
     <MESSAGE value="(code) implemented code to check for invalid palette size (palette &gt; 1 &amp;&amp; palette &lt; 1025 &amp;&amp; (palette &amp; (palette - 1)) == 0), with method called in constructor" />
     <MESSAGE value="(test) test passed for no specification of palette size" />
-    <option name="LAST_COMMIT_MESSAGE" value="(test) test passed for no specification of palette size" />
+    <MESSAGE value="(test) test created to test add method for palette array, tests palette limit" />
+    <MESSAGE value="(code) code implemented for add method to palette array, exception thrown if beyond max" />
+    <option name="LAST_COMMIT_MESSAGE" value="(code) code implemented for add method to palette array, exception thrown if beyond max" />
   </component>
 </project>

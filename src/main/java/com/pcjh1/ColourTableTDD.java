@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ColourTableTDD {
     private int palette;
-    private List<int[]> colorTable;
+    private final List<int[]> colorTable;
     public ColourTableTDD(int palette) {
         if (!inValidPaletteSize(palette)) {
             throw new IllegalArgumentException("Invalid palette size");
