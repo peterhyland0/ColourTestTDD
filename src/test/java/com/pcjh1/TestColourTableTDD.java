@@ -35,6 +35,35 @@ public class TestColourTableTDD {
 
 
         }
-        
+    @Test
+    public void testAddTooMany() {
+        ColourTableTDD colourTable = new ColourTableTDD(2);
 
+        colourTable.add(255, 0, 0); // Add red
+        assertEquals(1, colourTable.getColorTable().size());
+
+        colourTable.add(0, 255, 0); // Add green
+        assertEquals(2, colourTable.getColorTable().size());
+
+        assertThrows(IllegalStateException.class, () -> {
+            // Attempt to add more colors than the specified palette size
+            colourTable.add(0, 0, 255); // Add blue
+            colourTable.add(255, 255, 255); // Add white
+        });
     }
+    @Test
+  public void testAdd() {
+        ColourTableTDD colourTable = new ColourTableTDD(2);
+
+        colourTable.add(255, 0, 0); // Add red
+        assertEquals(1, colourTable.getColorTable().size());
+
+        colourTable.add(0, 255, 0); // Add green
+        assertEquals(2, colourTable.getColorTable().size());
+
+        assertThrows(IllegalStateException.class, () -> {
+            // Attempt to add more colors than the specified palette size
+            colourTable.add(0, 0, 255); // Add blue
+            colourTable.add(255, 255, 255); // Add white
+        });
+    }}
