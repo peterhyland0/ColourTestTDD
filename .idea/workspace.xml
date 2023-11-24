@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2949a741-33b8-4757-ab03-f0fd2ce26048" name="Changes" comment="created package in main/java folder called com.pcjh1, create file inside called ColourTableTDD.java">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcjh1/ColourTableTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcjh1/ColourTableTDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pcjh1/TestColourTableTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pcjh1/TestColourTableTDD.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Yd32ZsnA2Fxzq6hitx2Q89DOz5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="TestColourTableTDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ColourTestTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcjh1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pcjh1" />
+      <option name="MAIN_CLASS_NAME" value="com.pcjh1.TestColourTableTDD" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestColourTableTDD" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2949a741-33b8-4757-ab03-f0fd2ce26048" name="Changes" comment="" />
+      <created>1700841422709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700841422709</updated>
+    </task>
+    <task id="LOCAL-00001" summary="configured maven and added junit dependency to pom.xml file">
+      <created>1700841752454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700841752454</updated>
+    </task>
+    <task id="LOCAL-00002" summary="created package in test folder called com.pcjh1, create file inside called TestColourTableTDD.java">
+      <created>1700841946534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700841946534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created package in main/java folder called com.pcjh1, create file inside called ColourTableTDD.java">
+      <created>1700842035842</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700842035842</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="configured maven and added junit dependency to pom.xml file" />
+    <MESSAGE value="created package in test/java folder called com.pcjh1, create file inside called TestColourTableTDD.java" />
+    <MESSAGE value="created package in main/java folder called com.pcjh1, create file inside called ColourTableTDD.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="created package in main/java folder called com.pcjh1, create file inside called ColourTableTDD.java" />
+  </component>
+</project>
