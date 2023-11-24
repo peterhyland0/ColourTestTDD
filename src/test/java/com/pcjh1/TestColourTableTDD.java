@@ -66,4 +66,32 @@ public class TestColourTableTDD {
             colourTable.add(0, 0, 255); // Add blue
             colourTable.add(255, 255, 255); // Add white
         });
+    }
+    @Test
+    public void testAddInvalidRGBValues() {
+        ColourTableTDD colourTable = new ColourTableTDD(2);
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            colourTable.add(-1, 0, 0); // Add red
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            colourTable.add(0, -1, 0); // Add green
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            colourTable.add(0, 0, -1); // Add blue
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            colourTable.add(256, 0, 0); // Add red
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            colourTable.add(0, 256, 0); // Add green
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            colourTable.add(0, 0, 256); // Add blue
+        });
     }}
