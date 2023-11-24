@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2949a741-33b8-4757-ab03-f0fd2ce26048" name="Changes" comment="created package in main/java folder called com.pcjh1, create file inside called ColourTableTDD.java">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="2949a741-33b8-4757-ab03-f0fd2ce26048" name="Changes" comment="(code) implemented code to check if palette value (palette &gt; 1 &amp;&amp; palette &lt; 1025) using a method, which is then used by the constructor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pcjh1/ColourTableTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcjh1/ColourTableTDD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pcjh1/TestColourTableTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pcjh1/TestColourTableTDD.java" afterDir="false" />
     </list>
@@ -103,7 +97,35 @@
       <option name="project" value="LOCAL" />
       <updated>1700842035842</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="(test) tests added for ColourTableTDD constructor/setter/getter.">
+      <created>1700843929501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700843929501</updated>
+    </task>
+    <task id="LOCAL-00005" summary="(code) implemented code for ColourTableTDD constructor/setter/getter.">
+      <created>1700843967421</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700843967421</updated>
+    </task>
+    <task id="LOCAL-00006" summary="(test) implemented test to check if palette value (palette &gt; 1 &amp;&amp; palette &lt; 1025)">
+      <created>1700846571952</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700846571952</updated>
+    </task>
+    <task id="LOCAL-00007" summary="(code) implemented code to check if palette value (palette &gt; 1 &amp;&amp; palette &lt; 1025) using a method, which is then used by the constructor">
+      <created>1700846638280</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700846638280</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +143,10 @@
     <MESSAGE value="configured maven and added junit dependency to pom.xml file" />
     <MESSAGE value="created package in test/java folder called com.pcjh1, create file inside called TestColourTableTDD.java" />
     <MESSAGE value="created package in main/java folder called com.pcjh1, create file inside called ColourTableTDD.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="created package in main/java folder called com.pcjh1, create file inside called ColourTableTDD.java" />
+    <MESSAGE value="(test) tests added for ColourTableTDD constructor/setter/getter." />
+    <MESSAGE value="(code) implemented code for ColourTableTDD constructor/setter/getter." />
+    <MESSAGE value="(test) implemented test to check if palette value (palette &gt; 1 &amp;&amp; palette &lt; 1025)" />
+    <MESSAGE value="(code) implemented code to check if palette value (palette &gt; 1 &amp;&amp; palette &lt; 1025) using a method, which is then used by the constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="(code) implemented code to check if palette value (palette &gt; 1 &amp;&amp; palette &lt; 1025) using a method, which is then used by the constructor" />
   </component>
 </project>
