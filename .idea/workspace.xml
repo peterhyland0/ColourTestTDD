@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2949a741-33b8-4757-ab03-f0fd2ce26048" name="Changes" comment="(code) implemented code to check if palette value (palette &gt; 1 &amp;&amp; palette &lt; 1025) using a method, which is then used by the constructor">
+    <list default="true" id="2949a741-33b8-4757-ab03-f0fd2ce26048" name="Changes" comment="(test) test passed for no specification of palette size">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcjh1/ColourTableTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcjh1/ColourTableTDD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pcjh1/TestColourTableTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pcjh1/TestColourTableTDD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +124,28 @@
       <option name="project" value="LOCAL" />
       <updated>1700846638280</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="(test) implemented test to check if palette value is invalid using a method, which is then used by the constructor">
+      <created>1700847286139</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700847286139</updated>
+    </task>
+    <task id="LOCAL-00009" summary="(test) implemented test to check if palette size is invalid.">
+      <created>1700847378143</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700847378143</updated>
+    </task>
+    <task id="LOCAL-00010" summary="(code) implemented code to check for invalid palette size (palette &gt; 1 &amp;&amp; palette &lt; 1025 &amp;&amp; (palette &amp; (palette - 1)) == 0), with method called in constructor">
+      <created>1700847437383</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700847437383</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +167,10 @@
     <MESSAGE value="(code) implemented code for ColourTableTDD constructor/setter/getter." />
     <MESSAGE value="(test) implemented test to check if palette value (palette &gt; 1 &amp;&amp; palette &lt; 1025)" />
     <MESSAGE value="(code) implemented code to check if palette value (palette &gt; 1 &amp;&amp; palette &lt; 1025) using a method, which is then used by the constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="(code) implemented code to check if palette value (palette &gt; 1 &amp;&amp; palette &lt; 1025) using a method, which is then used by the constructor" />
+    <MESSAGE value="(test) implemented test to check if palette value is invalid using a method, which is then used by the constructor" />
+    <MESSAGE value="(test) implemented test to check if palette size is invalid." />
+    <MESSAGE value="(code) implemented code to check for invalid palette size (palette &gt; 1 &amp;&amp; palette &lt; 1025 &amp;&amp; (palette &amp; (palette - 1)) == 0), with method called in constructor" />
+    <MESSAGE value="(test) test passed for no specification of palette size" />
+    <option name="LAST_COMMIT_MESSAGE" value="(test) test passed for no specification of palette size" />
   </component>
 </project>

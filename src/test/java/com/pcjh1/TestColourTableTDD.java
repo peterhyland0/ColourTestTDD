@@ -23,8 +23,18 @@ public class TestColourTableTDD {
         });
         // Add more assertions for the expected behavior when an invalid palette size is provided
     }
+        @Test
+        public void testInvalidPaletteSizeException () {
+            assertThrows(IllegalArgumentException.class, () -> {
+                ColourTableTDD colourTable = new ColourTableTDD(0);
+            });
 
+            assertThrows(IllegalArgumentException.class, () -> {
+                ColourTableTDD colourTable = new ColourTableTDD(1025);
+            });
+
+
+        }
+        
 
     }
-
-
