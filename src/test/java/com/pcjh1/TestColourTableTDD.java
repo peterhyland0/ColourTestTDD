@@ -25,6 +25,7 @@ public class TestColourTableTDD {
     }
         @Test
         public void testInvalidPaletteSizeException () {
+
             assertThrows(IllegalArgumentException.class, () -> {
                 ColourTableTDD colourTable = new ColourTableTDD(0);
             });

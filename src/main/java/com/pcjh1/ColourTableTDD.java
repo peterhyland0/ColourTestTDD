@@ -27,7 +27,7 @@ public class ColourTableTDD {
 
         int[] rgbColor = {red, green, blue};
         for (int rgbValue : rgbColor) {
-            if (invalidRGBValue(rgbValue)) {
+            if (inValidRGBValue(rgbValue)) {
                 throw new IllegalArgumentException("Invalid RGB value");
             }
         }
@@ -41,11 +41,11 @@ public class ColourTableTDD {
     public List<int[]> getColorTable() {
         return colorTable;
     }
-    public boolean invalidRGBValue(int rgbValue) {
+    private boolean inValidRGBValue(int rgbValue) {
         return rgbValue < 0 || rgbValue > 255;
     }
 
-    public boolean inValidPaletteSize(int palette) {
+    private boolean inValidPaletteSize(int palette) {
         return palette > 1 && palette < 1025 && (palette & (palette - 1)) == 0;
     }
 }

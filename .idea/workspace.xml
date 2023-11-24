@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2949a741-33b8-4757-ab03-f0fd2ce26048" name="Changes" comment="(code) code implemented for add method to palette array, exception thrown if beyond max">
+    <list default="true" id="2949a741-33b8-4757-ab03-f0fd2ce26048" name="Changes" comment="code style warning (fixed warning using final field)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pcjh1/ColourTableTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcjh1/ColourTableTDD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pcjh1/TestColourTableTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pcjh1/TestColourTableTDD.java" afterDir="false" />
@@ -39,12 +39,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TestColourTableTDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ColourTestTDD" />
@@ -167,7 +168,28 @@
       <option name="project" value="LOCAL" />
       <updated>1700849191877</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="(test) test created to check for valid RGB colour value">
+      <created>1700849407088</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700849407088</updated>
+    </task>
+    <task id="LOCAL-00015" summary="(code) code implemented to check for valid RGB value using a method and exception handling">
+      <created>1700849450907</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700849450907</updated>
+    </task>
+    <task id="LOCAL-00016" summary="code style warning (fixed warning using final field)">
+      <created>1700849580716</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1700849580716</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +217,9 @@
     <MESSAGE value="(test) test passed for no specification of palette size" />
     <MESSAGE value="(test) test created to test add method for palette array, tests palette limit" />
     <MESSAGE value="(code) code implemented for add method to palette array, exception thrown if beyond max" />
-    <option name="LAST_COMMIT_MESSAGE" value="(code) code implemented for add method to palette array, exception thrown if beyond max" />
+    <MESSAGE value="(test) test created to check for valid RGB colour value" />
+    <MESSAGE value="(code) code implemented to check for valid RGB value using a method and exception handling" />
+    <MESSAGE value="code style warning (fixed warning using final field)" />
+    <option name="LAST_COMMIT_MESSAGE" value="code style warning (fixed warning using final field)" />
   </component>
 </project>
